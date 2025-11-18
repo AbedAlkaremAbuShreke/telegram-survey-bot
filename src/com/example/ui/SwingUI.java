@@ -336,7 +336,7 @@ public class SwingUI extends JFrame implements PollCloseListener {
             JScrollPane mainScroll = new JScrollPane(mainPanel);
             resultsFrame.add(mainScroll, BorderLayout.CENTER);
 
-            resultsFrame.setSize(600, 100);
+            resultsFrame.setSize(600, 500);
             resultsFrame.setLocationRelativeTo(this);
             resultsFrame.setVisible(true);
 
